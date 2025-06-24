@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
     --cor-destaque: #ff90d1;
-    --cor-gradiente-preto: linear-gradient(113deg, #ff4693 0%, #1E2021 44.96%, #1E2022 100%);
+    --cor-gradiente-preto: linear-gradient(113deg, #ff4693 0%, #c61055 44.96%, #59d1f2 100%);
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: Montserrat;
+    font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 body {
@@ -47,12 +49,12 @@ h1 {
     gap: 0.625rem;
     align-self: stretch;
     border-radius: 0.625rem;
-    background: #FFF;
+    background: #dfe1f2;
     font-size: 2rem;
 }
 
 #entrada-de-texto::placeholder {
-    color: #828282;
+    color: #1a4673;
     font-size: 2rem;
     font-weight: 400;
     line-height: normal;
